@@ -48,8 +48,8 @@
                                     <img :src="project.image" alt="" class="w-16 h-16">
                                 </td>
                                 <td class="px-6 py-4">
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                    <Link :href="route('projects.edit', project.id)" method="get" as="button" type="button" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">Edit</Link>
+                                    <Link :href="route('projects.destroy', project.id)" method="delete" as="button" type="button" class="font-medium text-red-600 dark:text-red-500 hover:underline">Delete</Link>
                                 </td>
                             </tr>
 
