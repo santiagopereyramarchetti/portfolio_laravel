@@ -31,6 +31,7 @@
                               ">
                                 <option v-for="skill in skills" :key="skill.id" :value="skill.id">{{ skill.name }}</option>
                             </select>
+                            <InputError class="mt-2" :message="form.errors.skill_id" />
                         </div>
                         <div>
                             <InputLabel for="name" value="Name" />

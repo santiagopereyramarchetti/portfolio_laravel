@@ -31,6 +31,7 @@
                               ">
                                 <option v-for="skill in props.skills" :key="skill.id" :value="skill.id">{{ skill.name }}</option>
                             </select>
+                            <InputError class="mt-2" :message="form.errors.skill_id" />
                         </div>
                         <div>
                             <InputLabel for="name" value="Name" />
@@ -71,7 +72,7 @@
                         </div>
                         <div class="flex items-center justify-end mt-4">
                             <PrimaryButton class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                                Store
+                                Update
                             </PrimaryButton>
                         </div>
                     </form>
