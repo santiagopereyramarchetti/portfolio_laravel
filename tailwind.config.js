@@ -11,8 +11,8 @@ module.exports = {
 
     theme: {
         fontFamily:{
-            primary: "Playfair Display",
-            body: "work Sans"
+            primary: "Playfair Display rev=1",
+            body: "Work Sans rev=1"
         },
         container:{
             padding:{
@@ -23,11 +23,11 @@ module.exports = {
         extend: {
             colors:{
                 "light-primary": "#FAF1E6",
-                "light-secondary-primary": "#DDFAF6",
+                "light-secondary": "#FDFAF6",
                 "light-tail-100": "#A0DED2",
                 "light-tail-500": "#54BAB9",
                 "dark-primary": "#050402",
-                "dark-secondary-primary": "#1C1D24",
+                "dark-secondary": "#1C1D24",
                 "dark-tail-100": "#07567D",
                 "dark-tail-500": "#292D42",
                 accent: {
