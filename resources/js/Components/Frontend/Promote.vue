@@ -3,7 +3,7 @@
 <section class="bg-white py-20 lg:py-[120px]">
   <div class="container mx-auto">
     <div
-      class="bg-white relative z-10 overflow-hidden rounded py-12 px-8 md:p-[70px]"
+      class="bg-white overflow-hidden rounded py-12 px-8 md:p-[70px]"
     >
       <div class="-mx-4 flex flex-wrap items-center">
         <div class="w-full px-4 lg:w-1/2">
